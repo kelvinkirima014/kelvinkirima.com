@@ -1,0 +1,3 @@
+[submodule "anemone"]
+	path = anemone
+	url = https://github.com/Speyll/anemone
