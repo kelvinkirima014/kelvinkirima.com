@@ -18,3 +18,4 @@ highlight_code = true
 list_pages = true
 display_author = true
 toc = true
+default_theme = "dark"
