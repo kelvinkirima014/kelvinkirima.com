@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-{{ section.content | safe }}
+<h1>{{ section.title }}</h1>
 
-{% if config.extra.list_pages %}
+{{ section.content | safe }}
 
 {% if paginator %}
 {% set pages = paginator.pages %}
@@ -15,8 +15,6 @@
 {% for page in pages %}
   <li>
     <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-    <br />
-    {{ page.description }}
   </li>
 {% endfor %}
 </ul>
@@ -24,6 +22,5 @@
 {% if paginator %}
 <div class="metaData">{% if paginator.previous %}<a href="{{ paginator.first }}">⥶</a> &nbsp <a href="{{ paginator.previous }}"><</a>{% endif %} &nbsp {{ paginator.current_index }} / {{ paginator.number_pagers }} &nbsp {% if paginator.next %}<a href="{{ paginator.next }}">></a> &nbsp <a href="{{ paginator.last }}">⥸</a>{% endif %}</div>
 {% endif %}
-
-{% endif %}
 {% endblock content %}
+

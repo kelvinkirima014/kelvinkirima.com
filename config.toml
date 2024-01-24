@@ -1,3 +1,5 @@
+theme = "anemone"
+
 # The URL the site will be built for
 base_url = "https://kelvinkirima.com"
 
@@ -7,7 +9,6 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-theme = "terminimal"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -15,7 +16,14 @@ theme = "terminimal"
 highlight_code = true
 
 [extra]
-list_pages = true
 display_author = true
 toc = true
 default_theme = "dark"
+
+list_pages = false
+twitter_card = true
+
+header_nav = [
+  { url = "/", name_en = "home" },
+  { url = "/blog", name_en = "blog" }
+]

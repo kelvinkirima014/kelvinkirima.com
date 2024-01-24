@@ -88,7 +88,7 @@ h1 {
 
 h1::before {
   color: var(--bgColor);
-  content: '# '
+  content: ''
 }
 
 h2::before,
@@ -97,7 +97,7 @@ h4::before,
 h5::before,
 h6::before {
   color: var(--metaColor);
-  content: '# '
+  content: ''
 }
 
 a {
@@ -265,6 +265,7 @@ textarea {
   padding: 1rem 0 0 0;
   display: flex;
   flex-direction: row;
+  margin: 5px;
   gap: .4rem;
   flex-wrap: wrap;
   justify-content: flex-end;
