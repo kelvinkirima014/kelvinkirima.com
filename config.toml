@@ -19,6 +19,8 @@ highlight_code = true
 display_author = true
 toc = true
 default_theme = "dark"
+favicon = "favicon.ico"
+image = ""
 
 list_pages = false
 twitter_card = true

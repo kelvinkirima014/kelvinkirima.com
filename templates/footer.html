@@ -1,5 +1,16 @@
 <hr>
 <div class=footContainer>
+  <div class="footLeft">  
+    <a href="https://github.com/kelvinkirima014" target="_blank">
+      <img src="{{ get_url(path='icons8-github.svg', trailing_slash=false) | safe }}" alt="GitHub" class="social-icon">
+    </a>
+    <a href="https://www.linkedin.com/in/kelvin-kirima-25b010184/" target="_blank">
+     <img src="{{ get_url(path='linkedin.svg', trailing_slash=false) | safe }}" alt="LinkedIn" class="social-icon">
+    </a>
+    <a href="https://twitter.com/014kirima" target="_blank">
+      <img src="{{ get_url(path='twitter.svg', trailing_slash=false) | safe }}" alt="Twitter" class="social-icon">
+    </a>
+  </div>
   {% if config.generate_feed %}
   <div class="footRight">
     <a class="icons__background" target="_blank" rel="noopener noreferrer" href="{{ get_url(path="atom.xml", trailing_slash=false) }}" title="Subscribe via RSS for updates."><svg class="icons icons__background"><use href="{{ get_url(path='icons.svg#rss', trailing_slash=false) | safe }}"></use></svg></a>
