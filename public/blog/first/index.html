@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="index, follow">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>The Mechanics of mutable references and dereference in Rust</title>
+
+
+
+<meta name="title" content="The Mechanics of mutable references and dereference in Rust">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kelvinkirima.com/blog/first/">
+
+<meta property="og:site_name" content="">
+
+
+<meta property="og:title" content="The Mechanics of mutable references and dereference in Rust">
+
+
+
+<meta property="og:image" content="https:&#x2F;&#x2F;kelvinkirima.com&#x2F;favicon.ico">
+
+
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://kelvinkirima.com/blog/first/">
+
+<meta property="twitter:title" content="The Mechanics of mutable references and dereference in Rust">
+
+
+
+<meta property="twitter:image" content="https:&#x2F;&#x2F;kelvinkirima.com&#x2F;favicon.ico">
+
+
+<link rel="canonical" href="https://kelvinkirima.com/blog/first/">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://kelvinkirima.com/favicon.ico">
+
+
+
+
+<link rel="stylesheet" href="https://kelvinkirima.com/css/style.css"/>
+
+<script src="https://kelvinkirima.com/js/script.js" defer></script>
+
+
+</head>
+<body>
+    <div class="wrapper">
+      <header>
+          
+
+  
+
+
+  <nav class="navBar">
+    
+  <div class="profile-icon">
+    <a href="https://kelvinkirima.com">
+     <img src="https://kelvinkirima.com/logo.jpg" alt="Profile Picture" class="profile-pic">
+    </a>
+  </div>
+    
+      <a href="&#x2F;" class="">
+        
+        home
+      </a>
+    
+      <a href="&#x2F;blog" class="">
+        
+        blog
+      </a>
+    
+
+  <div class="themeSwitch">
+    
+    <button class="themeButton dark" onclick="setTheme('dark')" title="Dark mode"><svg class="icons icons__background"><use href="https://kelvinkirima.com/icons.svg#darkMode"></use></svg></button>
+    <button class="themeButton light" onclick="setTheme('light')" title="Light mode"><svg class="icons icons__background"><use href="https://kelvinkirima.com/icons.svg#lightMode"></use></svg></button>
+    
+  </div>
+  
+
+</nav>
+
+
+      </header>
+      <main>
+          
+<div><a href="..">..</a>/<span class="metaData">first</span></div>
+<time datetime="2024-01-22">Published on: <span class="metaData">2024-01-22</span></time>
+
+<h1>The Mechanics of mutable references and dereference in Rust</h1>
+
+
+
+<p>I was working with the sqlx library trying to create a database transaction that I could use to update the database and also insert into the database.</p>
+<p>I created the tx like so:</p>
+<pre data-lang="rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-rust "><code class="language-rust" data-lang="rust"><span>	 	</span><span style="color:#65737e;">//create a database transaction in order to be able
+</span><span>    </span><span style="color:#65737e;">//to insert and update the db atomically
+</span><span>    </span><span style="color:#b48ead;">let mut</span><span> tx = ctx.db.</span><span style="color:#96b5b4;">begin</span><span>().await.</span><span style="color:#96b5b4;">map_err</span><span>(| </span><span style="color:#bf616a;">err </span><span>| {
+</span><span>        error!(&quot;</span><span style="color:#a3be8c;">error starting database transaction: {err}</span><span>&quot;);
+</span><span>        ApiError::InternalServerError
+</span><span>    })?;
+</span></code></pre>
+<p>I then intended to use the transaction as an executor to query the db for user insertion:</p>
+<pre data-lang="rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-rust "><code class="language-rust" data-lang="rust"><span style="color:#b48ead;">let</span><span> new_user = sqlx::query_as!(
+</span><span>        User,
+</span><span>        </span><span style="color:#b48ead;">r</span><span>#&quot;
+</span><span style="color:#a3be8c;">            insert into users (username, referral_code, referred_by)
+</span><span style="color:#a3be8c;">            values ($1, $2, $3)
+</span><span style="color:#a3be8c;">            returning *
+</span><span style="color:#a3be8c;">        </span><span>&quot;#,
+</span><span>        new_username,
+</span><span>        new_referral_code,
+</span><span>        referrer.referral_code
+</span><span>    )
+</span><span>    .</span><span style="color:#96b5b4;">fetch_one</span><span>(&amp;</span><span style="color:#b48ead;">mut</span><span> tx)
+</span><span>    .await
+</span><span>    .</span><span style="color:#96b5b4;">map_err</span><span>(| </span><span style="color:#bf616a;">err </span><span>| {
+</span><span>        error!(&quot;</span><span style="color:#a3be8c;">error creating new user from username: {err}</span><span>&quot;);
+</span><span>        ApiError::InternalServerError
+</span><span>    })?;
+</span></code></pre>
+<p>However, the code threw an error that goes like this:</p>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">the</span><span> trait bound `&amp;</span><span style="color:#bf616a;">mut</span><span> Transaction&lt;&#39;</span><span style="color:#a3be8c;">_, Postgres&gt;: sqlx::Executor&lt;</span><span>&#39;_&gt;` is not satisfied
+</span><span style="color:#bf616a;">the</span><span> following other types implement trait `</span><span style="color:#bf616a;">sqlx::Executor</span><span>&lt;&#39;</span><span style="color:#a3be8c;">c&gt;`:
+</span><span style="color:#a3be8c;">  &lt;&amp;</span><span>&#39;c mut AnyConnection as sqlx::Executor&lt;&#39;</span><span style="color:#a3be8c;">c&gt;&gt;
+</span><span style="color:#a3be8c;">  &lt;&amp;</span><span>&#39;c mut PgConnection as sqlx::Executor&lt;&#39;</span><span style="color:#a3be8c;">c&gt;&gt;
+</span><span style="color:#a3be8c;">  &lt;&amp;</span><span>&#39;c mut PgListener as sqlx::Executor&lt;&#39;</span><span style="color:#a3be8c;">c&gt;&gt;
+</span><span style="color:#a3be8c;">  &lt;&amp;Pool&lt;DB&gt; as sqlx::Executor&lt;</span><span>&#39;p&gt;&gt;rustcClick for full compiler diagnostic
+</span><span style="color:#bf616a;">signup.rs</span><span>(102, 6)</span><span style="color:#96b5b4;">:</span><span> required by a bound introduced by this call
+</span></code></pre>
+<p>This error message is pointing out a trait-bound issue. It's saying that the trait <strong><code>sqlx::Executor</code></strong> is not satisfied for the type <strong><code>&amp;mut Transaction&lt;'_, Postgres&gt;</code></strong>. However, it is satisfied for a few other types like <strong><code>&amp;mut AnyConnection</code></strong>, <strong><code>&amp;mut PgConnection</code></strong>, <strong><code>&amp;mut PgListener</code></strong>, and <strong><code>&amp;Pool&lt;DB&gt;</code></strong>. Thank you Rustc, very helpful! How do we solve it? The first logical thing I thought to do is look up sqlx transactions to see how they’re usually composed. </p>
+<p>I came across <a href="https://github.com/launchbadge/sqlx/issues/1560">this</a> GitHub issue that describes a problem similar to the one I was facing.</p>
+
+
+<p class="tagsData">
+  
+</p>
+
+      </main>
+      <footer>
+          <hr>
+<div class=footContainer>
+  <div class="footLeft">  
+    <a href="https://github.com/kelvinkirima014" target="_blank">
+      <img src="https://kelvinkirima.com/icons8-github.svg" alt="GitHub" class="social-icon">
+    </a>
+    <a href="https://www.linkedin.com/in/kelvin-kirima-25b010184/" target="_blank">
+     <img src="https://kelvinkirima.com/linkedin.svg" alt="LinkedIn" class="social-icon">
+    </a>
+    <a href="https://twitter.com/014kirima" target="_blank">
+      <img src="https://kelvinkirima.com/twitter.svg" alt="Twitter" class="social-icon">
+    </a>
+  </div>
+  
+</div>
+
+      </footer>
+    </div>
+</body>
+</html>

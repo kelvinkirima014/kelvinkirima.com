@@ -1,4 +1,4 @@
-theme = "anemone"
+#theme = "anemone"
 
 # The URL the site will be built for
 base_url = "https://kelvinkirima.com"
