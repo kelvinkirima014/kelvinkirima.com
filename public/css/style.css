@@ -293,10 +293,12 @@ textarea {
   display: flex;
   flex-direction: row; /* Make navigation links a vertical column */
   margin-top: .5rem; /* Add spacing after the profile text */
+  padding: 4px;
 }
 
 .nav-links a {
-  margin-left: 0.5rem; /* Indent navigation links slightly */
+  margin-right: 2.5rem; /* Indent navigation links slightly */
+
 }
 
 .home-link-container {
