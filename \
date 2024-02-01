@@ -5,28 +5,20 @@
   {% set current_lang = section.lang %}
 {% endif %}
 {% if config.extra.header_nav %}
-  <nav class="navBar">    
+  <nav class="navBar">
     
-    <div class="profile-section">
-       <div class="home-link-container">      
-        <a href="{{ get_url(path='/') }}">
-         <img src="{{ get_url(path='logo.jpg', trailing_slash=false) | safe }}" alt="Profile Picture" class="profile-pic">
-        </a>
-       </div> 
-    
-      <div class="profile-info">
-        <span class="profile-text">Kirima</span>
-        <div class="nav-links">
-          {% for nav_item in config.extra.header_nav %}
+  <div class="profile-icon">
+    <span class="profile-text">Kirima</span>
+    <a href="{{ get_url(path='/') }}">
+     <img src="{{ get_url(path='logo.jpg', trailing_slash=false) | safe }}" alt="Profile Picture" class="profile-pic">
+    </a>
+  </div>
+    {% for nav_item in config.extra.header_nav %}
       <a href="{{ nav_item.url }}" class="{% if nav_item.url == current_url %}active{% endif %}">
         {% set language_key = 'name_' ~ current_lang %}
         {{ nav_item[language_key] }}
       </a>
     {% endfor %}
-        </div>
-      </div>
-
-    </div>
 
   <div class="themeSwitch">
     {% if not config.extra.default_theme %}

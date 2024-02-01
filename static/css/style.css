@@ -266,30 +266,61 @@ textarea {
   display: flex;
   flex-direction: row;
   gap: .4rem;
-  flex-wrap: wrap;
   align-items: center;
   /*justify-content: flex-end;
   align-items: center;
   align-content: flex-end */
 }
 
+.profile-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
 .profile-section {
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
 .profile-pic {
-  width: 70px; /* Adjust the size of the profile-pic */
-  height: 70px;
+  width: 70px; 
+  height: 72px;
   max-width: 100%;
-  /*border-radius: 50%; /* Make it round */
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row; /* Make navigation links a vertical column */
+  margin-top: .5rem; /* Add spacing after the profile text */
+}
+
+.nav-links a {
+  margin-left: 0.5rem; /* Indent navigation links slightly */
+}
+
+.home-link-container {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.home-link-container a:hover {
+  background-color: transparent;
 }
 
 .social-icon {
   width: 25px; /* Adjust the size of the other icons */
   height: 25px;
   margin: 5px; /* Adjust the spacing between icons */
+  color: var(--fgColor);
+  fill: var(--fgColor);
+  background-color: transparent;
+}
+
+.themeSwitch {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Move themeSwitch to the right by pushing it to the end of the flex container */
 }
 
 .themeButton {
@@ -339,6 +370,13 @@ textarea {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+.footRight {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  flex-direction: row;
 }
 
 .noStyle {
