@@ -3,6 +3,7 @@ base_url = "https://kelvinkirima.com"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
+minify_html = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
@@ -10,6 +11,14 @@ build_search_index = true
 
 [markdown]
 highlight_code = true
+render_emoji = true
+smart_punctuation = true
+
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
 
 [extra]
 display_author = true
