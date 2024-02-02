@@ -23,9 +23,9 @@ My primary stack includes Rust & Typescript. I have listed some of the languages
 
 - Rust
 - Typescript
-- NodeJs
+- Node.js
 - PostgreSQL
-- Solidjs
+- Solid.js
 - CSS
 - HTML
 - React
@@ -33,3 +33,4 @@ My primary stack includes Rust & Typescript. I have listed some of the languages
 - Git
 - Linux
 - Neovim
+- tmux
