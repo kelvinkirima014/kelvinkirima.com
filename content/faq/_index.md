@@ -53,4 +53,37 @@ Neovim, btw.
 ## How's your experience with Neovim been like?
 The first text-editor I ever used was Sublime Text, then I switched to VsCode after a few months. The switch to Neovim wasn't an easy one, it took me a lot of time to first learn Vim motions and then to configure my environment. But I really wanted to make the switch and I'm glad I did. I can now navigate my workspaces much more efficiently, and I really enjoy writing the configs. I've written more about the experience in [this post](https://www.linkedin.com/posts/kelvin-kirima-25b010184_i-started-to-teach-myself-how-to-program-activity-7150909262901264384-240y?utm_source=share&utm_medium=member_desktop).   
 
+## Besides Programming, what else do you enjoy?
+I enjoy taking long nature walks; the good thing is I live close to a forest and so I take long strolls every time I get a chance.
+
+## Where do you live?
+I live in a small highland county known as Meru, Kenya.
+
+## How's it like over there?
+It's very beautiful. We're lucky that a small stream passes through our shamba, and we are also just a few meters away from the Mt.Kenya forest.
+
+{{ img(id="forest1.jpg", alt="forest pic") }}
+
+## What do most people do for a living? 
+Most guys here are farmers; my parents too. We grow tea on our farm that's sold to a factory and exported; we also keep cattle and poultry for milk and the eggs. 
+
+## Have you always lived there?
+I was born and grew up here, but I went to Nairobi for college and lived there for a while before coming back home last year.
+
+## What's Nairobi like?
+There's a lot I love and miss about Nairobi; there's a vibrant street food culture which I enjoy, the Matatus are a whole freaking vibe, the streets are lively, and the girls beautiful. To quote the great author Karen Blixen, aka, Isak Dinesen of Out of Africa: 
+> There's no world without Nairobi's streets.
+
+
+## Are there other places in the world you would like to visit?
+Yes. I hope to visit every Afrikan country before I die. Besides Afrika, another travel destination I dream of is Ensenada, Baja California, Mexico.
+
+## Why Ensenada?
+It's a place that's been on mind since the first time I listened to a song I really like: *The Road to Ensenada*, by Lylle Lovett.
+
+## What's your favorite song?
+My favourite song is *A Commet Appears*, by The Shins, what a lovely, lovely song.
+{{ youtube(id="kT-t7Mu-eO4" class="textCenter") }}
+
+
 ### More of this faq soon...
