@@ -62,7 +62,7 @@ I live in a small highland county known as Meru, Kenya.
 ## How's it like over there?
 It's very beautiful. We're lucky that a small stream passes through our shamba, and we are also just a few meters away from the Mt.Kenya forest.
 
-{{ img(id="forest1.jpg", alt="forest pic") }}
+{{ img(id="forest.jpg", alt="forest pic") }}
 
 ## What do most people do for a living? 
 Most guys here are farmers; my parents too. We grow tea on our farm that's sold to a factory and exported; we also keep cattle and poultry for milk and the eggs. 
