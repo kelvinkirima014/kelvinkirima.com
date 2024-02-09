@@ -2,7 +2,7 @@
 title = "FAQs"
 +++
 
-I have't really been asked these questions frequently, but I would not mind answering if I were asked.
+I have't really been asked these questions frequently, but I would not mind answering if I were.
 
 ## At what age did you start to teach yourself how to program computers?
 I started at 20, back in 2020. Yes, I'm 24 years now.

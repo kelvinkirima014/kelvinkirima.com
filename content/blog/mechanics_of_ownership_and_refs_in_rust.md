@@ -17,7 +17,7 @@ fn main() {
     let take_ownership = input;
     println!("Taken ownership of value {:?}", take_ownership);
 
-    let _illegal = input; // throws an error -> use of moved value input
+    let _illegal = input; // throws an error -> use of moved value `input`
 }
 ```
 
@@ -26,10 +26,10 @@ The error message tells us we are trying to use a value which has already been m
 There's a work-around to this that makes the error go away quickly; Instead of taking ownership, we just borrow the value
 ```rust
 let borrow_value = &input;
-println!(...);
+println!("...");
 
 let another_borrow = &input
-println!(...);
+println!("...");
 ```
 The ampersand sign `&` denotes that we are taking a reference to the memory address the value is stored, but we're not taking ownership of the value itself. Now we can have as many borrows as we want, but there's a catch: We can only have one mutable reference at a time.
 ```rust
