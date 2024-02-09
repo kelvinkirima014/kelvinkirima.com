@@ -139,7 +139,7 @@ for &mut Transaction<'_, Postgres>
               <&Pool<DB> as sqlx::Executor<'p>>
 ```
 
-The error tells us that a trait we need is not implemented for our mutable reference to the `Transaction` type. These are one of those errors that have you scratching your head because the compiler has no more help to offer you, we are basically on our own now. The logical thing to do here is to dig into other people's code and see if I can find out how others construct multi-statement transactions in sqlx. I came across a similar problem on Github, and the solution offered is to dereference the transaction:
+The error tells us that the `sqlx::Executor` trait, which provides a database connection we can use for executing queries is not implemented for our mutable reference to the `Transaction` type. These are one of those errors that have you scratching your head because the compiler has no more help to offer you, we are basically on our own now. The logical thing to do here is to dig into other people's code and see if I can find out how others construct multi-statement transactions in sqlx. I came across a similar problem on Github, and the solution offered is to dereference the transaction:
 
 ```rust
 async fn demo_txn(db: PgPool) -> Result<()> {
@@ -153,7 +153,33 @@ async fn demo_txn(db: PgPool) -> Result<()> {
 }
 ```
 
-And true enough, the errors go away; interesting. What happens here is that when we *dereference* the type `&mut Transaction`, we are left with the referent type `Transaction` which implements the missing traits, resolving the compilation error. This example goes to show how some of the errors you may account even with trait bound issues are directly tied to the concepts of ownership and references.
+And true enough, the errors go away; Interesting, let's dig a little deeper to understand what's going on. The `begin` method we call on the `db` looks like so:
+```rust
+pub async fn begin(&self) -> Result<Transaction<'static, DB>, Error>
+```
+When we call `?` on the Result, we are left with the `Transaction` type:
+
+```rust
+pub struct Transaction<'c, DB>
+where
+    DB: Database,
+{ ...}
+```
+So, when we do `*tx`, we are asking for a mutable dereference to the `Transaction` because our methods are in a mutable expression context. Rust requires that types that want to be dereferenced implement the [Deref](https://doc.rust-lang.org/std/ops/trait.Deref.html#) trait - for immutable dereference, or the [DerefMut](https://doc.rust-lang.org/std/ops/trait.DerefMut.html) trait for mutable dereferences. The transaction type implements both of these traits, here's the DerefMut implementation:
+```rust
+impl<'c, DB> DerefMut for Transaction<'c, DB>
+where
+    DB: Database,
+{
+    #[inline]
+    fn deref_mut(&mut self) -> &mut Self::Target {
+        &mut self.connection
+    }
+}
+```
+The `*` uses the above `DerefMut` implementation and yields a mutable `<DB as Database>::Connection` (the associated connection type for whichever DB we're using). I'm using Postgres, so the deref gets us a mutable [PgConnection](https://docs.rs/sqlx/latest/sqlx/struct.PgConnection.html) which implements the `sqlx::Executor` trait that was missing and thus causing the compilation error. 
+
+I understand this has been a long exposition, but an example like this goes to show how some of the errors we may encounter even with trait bound issues are directly tied to the concepts of ownership and references - and how deep they can go.
 
 ## Finishing Up
 

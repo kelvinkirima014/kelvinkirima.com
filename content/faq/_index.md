@@ -74,7 +74,6 @@ I was born and grew up here, but I went to Nairobi for college and lived there f
 There's a lot I love and miss about Nairobi; there's a vibrant street food culture which I enjoy, the Matatus are a whole freaking vibe, the streets are lively, and the girls beautiful. To quote the great author Karen Blixen, aka, Isak Dinesen of Out of Africa: 
 > There's no world without Nairobi's streets.
 
-
 ## Are there other places in the world you would like to visit?
 Yes. I hope to visit every Afrikan country before I die. Besides Afrika, another travel destination I dream of is Ensenada, Baja California, Mexico.
 
