@@ -2,7 +2,7 @@
 title = "The Mechanics of Ownership, References, and Dereferences in Rust"
 date = 2024-02-07
 +++
-The design choices of a programming language has direct implications on how we write code. One such design choice is the concept of ownership and borrowing in the Rust programming language. 
+The design choices of a programming language have direct implications on how we write code. One such design choice is the concept of ownership and borrowing in the Rust programming language. 
 
 ## Ownership, References and Immutability
 
