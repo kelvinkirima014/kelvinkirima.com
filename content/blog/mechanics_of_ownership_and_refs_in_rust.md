@@ -110,7 +110,7 @@ This article was inspired by a problem I encountered while working with the [sql
 ```rust
 async fn demo_txn(db: PgPool) -> Result<()> {
 	let tx = db.begin().await.map_errr(|err| {
-        error!("error starting database transaction: {err}");`
+        error!("error starting database transaction: {err}");
     })?;
     
 	let row = sqlx::query("...").fetch_one(&mut tx).await?;
