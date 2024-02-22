@@ -27,7 +27,7 @@ My primary stack includes Rust & Typescript. I have listed some of the languages
 - HTTP/S
 - QUIC
 - WebRTC
-- MP4
+- Media containers and codecs
 - PostgreSQL
 - HTML5
 - CSS
