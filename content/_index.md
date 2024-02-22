@@ -1,12 +1,12 @@
 +++
 +++
-Hello, I'm Kirima and welcome to my little corner on the internet. 
+Hello, I'm Kirima and welcome to my place on the internet. 
 
 ## About Me
 
-I'm a computer programmer, independent author and educator with deep insights on programming languages, computer networks and web communication protocols.
+I'm a computer programmer, independent author and educator with deep insights on programming languages, computer networks, and media technologies.
 
-My primary focus is building backend APIs and features powering web applications using cutting-edge technologies. I'm currently building [Majiix](https://github.com/Majgix/Majiix), an opensource low-latency platform for real-time collaboration on the web. We are still in early stages, but I'm super hopeful for it.  
+My primary focus is on web communication protocols and all areas of audio/video streaming. I'm currently hacking on [Majiix](https://github.com/Majgix/Majiix), an opensource low-latency platform for web-based teleconferencing.  
 
 Before Majiix, I worked with a technical education agency to help train and onboard developers to the Rust Programming Language. If interested on learning more about me, please check out the [faq](/faq). 
 
@@ -24,13 +24,18 @@ My primary stack includes Rust & Typescript. I have listed some of the languages
 - Rust
 - Typescript
 - Node.js
+- HTTP/S
+- QUIC
+- WebRTC
+- MP4
 - PostgreSQL
-- Solid.js
+- HTML5
 - CSS
-- HTML
+- Solid.js
 - React
-- Docker
+- FFmpeg
 - Git
 - Linux
 - Neovim
 - tmux
+- htop

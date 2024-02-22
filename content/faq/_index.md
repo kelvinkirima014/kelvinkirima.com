@@ -4,14 +4,14 @@ title = "FAQs"
 
 I have't really been asked these questions frequently, but I would not mind answering if I were.
 
-## At what age did you start to teach yourself how to program computers?
-I started at 20, back in 2020. Yes, I'm 24 years now.
-
 ## How did you get into programming?
 I wanted to make websites. Turns out, you need code, and so I had to teach myself how to write code.
 
 ## Do you like to Program?
-I Love it. It's like my life finally had a meaning. Here was something I really liked that I wanted to be really good at. And it turns out, I can make a living out of it as well.
+Yes, very much. Programming enriches my life with meaningfulness that I don't take for granted; I'm glad I found something I really like to do and that I want to be really good at.
+
+## When did you start to program?
+I started to teach myself how to code in 2020. I was 20 years old then.
 
 ## What was your first Programming Language?
 My first Hello World was in HTML, which is a markup language. My first 'real' programming language was Javascript.
@@ -57,7 +57,7 @@ The first text-editor I ever used was Sublime Text, then I switched to VsCode af
 I enjoy taking long nature walks; the good thing is I live close to a forest and so I take long strolls every time I get a chance.
 
 ## Where do you live?
-I live in a small highland county known as Meru, Kenya.
+Besides the internet? A small highland county known as Meru, Kenya.
 
 ## How's it like over there?
 It's very beautiful. We're lucky that a small stream passes through our shamba, and we are also just a few meters away from the Mt.Kenya forest.
