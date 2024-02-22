@@ -11,7 +11,7 @@ I wanted to make websites. Turns out, you need code, and so I had to teach mysel
 Yes, very much. Programming enriches my life with meaningfulness that I don't take for granted; I'm glad I found something I really like to do and that I want to be really good at.
 
 ## When did you start to program?
-I started to teach myself how to code in 2020. I was 20 years old then.
+I started to teach myself how to code in late 2019. I was 19 years old then.
 
 ## What was your first Programming Language?
 My first Hello World was in HTML, which is a markup language. My first 'real' programming language was Javascript.
