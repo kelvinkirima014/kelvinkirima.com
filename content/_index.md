@@ -2,11 +2,11 @@
 +++
 Hello, I'm Kirima and welcome to my place on the internet. 
 
-## About Me
+## Background
 
-I'm a computer programmer, educator and transport protocols nerd with deep insights on computer systems, computer networks, and media technologies.
+I'm a computer programmer, educator and contractor with profound insights on computer systems, computer networks, and media technologies.
 
-My primary focus is on web communication protocols and all areas of audio/video streaming. I'm currently hacking on [Majiix](https://github.com/Majgix/Majiix), an opensource low-latency platform for web-based teleconferencing.  
+I consider myself a focused individual who can get things done quickly. My primary focus is on web communication protocols and all areas of audio/video streaming. I'm currently hacking on [Majiix](https://github.com/Majgix/Majiix), an opensource low-latency platform for web-based teleconferencing.  
 
 Before Majiix, I worked with a technical education agency to help train and onboard developers to the Rust Programming Language. If interested on learning more about me, please check out the [faq](/faq). 
 

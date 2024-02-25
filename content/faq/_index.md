@@ -19,14 +19,16 @@ My first Hello World was in HTML, which is a markup language. My first 'real' pr
 ## Why Javascript?
 Because it's the scripting language for the web.
 
-## What is your favorite programming language?
-The Rust Programming Language.
+## Which programming languages do you mostly use?
+Javascript, Typescript, Rust, Lua, Bash, Racket, C.
 
-## What your favorite thing about the Rust Programming Language?
-The compiler guides you on how to program, it lets you know when you make a mistake, and helps you fix the mistake. It kinda teaches you how to program, and I know for sure that Rust has helped me become a better programmer.
+## Any favourite?
+Yes, Rust.
 
-## How many Programming languages do you know?
-Let's see: Rust, Javascript, Typescript, Lua, Bash, Racket. Proficiency in that order.
+## Why Rust?
+I'm into backend systems and Rust is a joy to work with in this domain. Besides the speed of a low-level language and memory safety, Rust's rich type system and concepts like the Option and Result types make designing APIs a bliss by encouraging solid error handling through concepts built into the language itself.  
+
+Rust enables all that without sacrificing expressiveness of the language, productivity, and developer experience. Modern language concepts like pattern matching and generics, the  Cargo package manager and solid development tools, all make working with Rust a breeze. Lest I forget, the compiler which not only catches my mistakes before runtime, but also acts like a kind teacher and guides me on how to fix them. 
 
 ## Are you looking to add any new languages to your stack? If so which one/s?
 Yes, I'm currently learning myself some Erlang for great good, although I'm no where near good yet. I need to allocate some more time to it.
