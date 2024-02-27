@@ -34,7 +34,7 @@ Rust enables all that without sacrificing expressiveness of the language, produc
 I like languages, not just the ones that tell a computer what to do. I can write, read and speak three natural languages fluently - English, Swahili and [Kimeru](https://en.wikipedia.org/wiki/Meru_language). I've tried learning Chinese/Mandarin on Duolingo but I just know some basic stuff and my keyboards weren't really designed with Chinese in mind. I'll probably have to hire a tutor sometime in the future when things align. 
 
 ## What about programming languages?
-I'm always experimenting with a new language every now and then. Some that are on my radar are Go, Java, and I'd also like to get a lil decent at C. Currently, I'm learning myself some Erlang for great good, although I'm no where near good yet. I need to allocate some more time to it.
+I'm always experimenting with a new language every now and then. Currently, I'm learning myself some Erlang for great good, although I'm no where near good yet. I need to allocate some more time to it. I also want to add Go to my stack to make myself more hirable because it's incredibly popular in the industry.
 
 ## Why Erlang?
 Erlang is such a powerful language, especially when you want highly scalable and reliable software in a distributed environment. You see, Erlang uses something known as the [actor model](https://en.wikipedia.org/wiki/Actor_model), where each actor is a separate process in the Erlang virtual machine(also known as [BEAM](https://www.erlang.org/blog/a-brief-beam-primer/)). The processes are light-weight and isolated, i.e. if a process crashes, it never corrupts other processes' memory, ever.
