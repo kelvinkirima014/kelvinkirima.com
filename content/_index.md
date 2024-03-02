@@ -36,6 +36,3 @@ My primary stack includes Rust & Typescript. I have listed some of the languages
 - FFmpeg
 - Git
 - Linux
-- Neovim
-- tmux
-- htop
