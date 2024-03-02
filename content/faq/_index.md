@@ -80,7 +80,7 @@ There's a lot I love and miss about Nairobi; there's a vibrant street food cultu
 > There's no world without Nairobi's streets.
 
 ## Are there other places in the world you would like to visit?
-Yes. I hope to visit every Afrikan country before I die. Besides Afrika, another travel destination I dream of is Ensenada, Baja California, Mexico.
+Yes. I hope to visit every African country before I leave this world behind. I also have friends from many countries around the world like Sweden, the U.K, India, and the U.S that I'd love to meet physically some day. Another travel destination I dream of is Ensenada, Baja California, Mexico.
 
 ## Why Ensenada?
 It's a place that's been on mind since the first time I listened to a song I really like: *The Road to Ensenada*, by Lylle Lovett.
