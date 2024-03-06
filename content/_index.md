@@ -4,7 +4,7 @@ Hello, I'm Kirima and welcome to my place on the internet.
 
 ## Background
 
-I'm a computer programmer, educator and contractor with profound insights on computer systems, computer networks, and media technologies.
+I'm a computer programmer, educator, and independent author with experience in web technologies, computer networks, and audio/video applications.
 
 I consider myself a focused individual who can get things done quickly. My primary focus is on web communication protocols and all areas of audio/video streaming. I'm currently hacking on [Majiix](https://github.com/Majgix/Majiix), an opensource low-latency platform for web-based teleconferencing.  
 
