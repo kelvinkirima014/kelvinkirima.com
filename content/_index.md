@@ -19,7 +19,7 @@ For any inquiries regarding contracting or hiring, or if you’re a like-minded 
 - LinkedIn [Kelvin Kirima](https://www.linkedin.com/in/kelvin-kirima-25b010184/)
 
 ## Tools
-My primary stack includes Rust & Typescript. I have listed some of the languages/tools I have used or still use below; there are a lot more but these are the ones I deemed necessary to list: 
+I enjoy building things on the web. My primary stack includes Rust & Typescript. I have listed some of the languages/tools I have used or still use below; there are a lot more but these are the ones I deemed necessary to list: 
 
 - Rust
 - Typescript
