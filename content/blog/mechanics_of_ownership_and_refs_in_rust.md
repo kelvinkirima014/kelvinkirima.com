@@ -21,7 +21,7 @@ fn main() {
 }
 ```
 
-The error message tells us we are trying to use a value which has already been moved to another memory location. When we create the variable `take_ownership`, we move the value in the `input`'s memory location to `take_ownership`, thus trying to allocate `input`'s value to another variable fails, because the value is no longer there. This is all by design, imagine if we were successful in having two variables own the value at the same time, and then have both variables mutate the value, we got ourselves a race condition, not good. Innit?
+The error message tells us we are trying to use a value which has already been moved to another memory location. When we create the variable `take_ownership`, we move the value in the `input`'s memory location to `take_ownership`, thus trying to allocate `input`'s value to another variable fails, because the value is no longer there. This is all by design, imagine if we were successful in having two variables own the value at the same time, and then have both variables mutate the value; congratulations, we got ourselves a [race condition](https://en.wikipedia.org/wiki/Race_condition).
 
 There's a work-around to this that makes the error go away quickly; Instead of taking ownership, we just borrow the value
 ```rust
