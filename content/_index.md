@@ -10,13 +10,13 @@ I consider myself a focused individual who can get things done quickly. My prima
 
 Before Majiix, I worked with a technical education agency to help train and onboard developers to the Rust Programming Language. If interested on learning more about me, please check out the [faq](/faq). 
 
-## Hiring/Consultation
-For any inquiries regarding contracting or hiring, or if you’re a like-minded individual, reach out on:
+## Contact Me
+For any inquiries regarding contracting or hiring, or if you'd just like to chat, reach out on:
 
-- Twitter [@014kirima](https://twitter.com/014kirima)
 - Email at contact@kelvinkirima.com
 - Discord @kelvin7460
 - LinkedIn [Kelvin Kirima](https://www.linkedin.com/in/kelvin-kirima-25b010184/)
+- Twitter [@014kirima](https://twitter.com/014kirima)
 
 ## Tools
 I enjoy building things on the web. My primary stack includes Rust & Typescript. I have listed some of the languages/tools I have used or still use below; there are a lot more but these are the ones I deemed necessary to list: 
