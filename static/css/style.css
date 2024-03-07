@@ -380,6 +380,9 @@ textarea {
   gap: 2rem;
   flex-direction: row;
 }
+.footLeft {
+
+}
 
 .noStyle {
   padding: 0;
