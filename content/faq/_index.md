@@ -31,7 +31,7 @@ I'm into backend systems and Rust is a joy to work with in this domain. Besides 
 Rust enables all that without sacrificing expressiveness of the language, productivity, and developer experience. Modern language concepts like pattern matching and generics, the  Cargo package manager and solid development tools, all make working with Rust a breeze. Lest I forget, the compiler which not only catches my mistakes before runtime, but also acts like a kind teacher and guides me on how to fix them. 
 
 ## Are you looking to add any new languages to your stack? If so which one/s?
-I like languages, not just the ones that tell a computer what to do. I can write, read and speak three natural languages fluently - English, Swahili and [Kimeru](https://en.wikipedia.org/wiki/Meru_language). I've tried learning Chinese/Mandarin on Duolingo but I just know some basic stuff and my keyboards weren't really designed with Chinese in mind. I'll probably have to hire a tutor sometime in the future when things align. 
+I like languages, not just the ones that tell a computer what to do. I can read, write and speak three natural languages fluently - English, Swahili and [Kimeru](https://en.wikipedia.org/wiki/Meru_language). I've tried learning Chinese/Mandarin on Duolingo but I just know some basic stuff and my keyboards weren't really designed with Chinese in mind. I'll probably have to hire a tutor sometime in the future when things align. 
 
 ## What about programming languages?
 I'm always experimenting with a new language every now and then. Currently, I'm learning myself some Erlang for great good, although I'm no where near good yet. I need to allocate some more time to it. I also want to add Go to my stack to make myself more hirable because it's incredibly popular in the industry.
@@ -53,7 +53,7 @@ I'm running Fedora Linux, latest release.
 Stable releases, fast startup, FOSS packages only, seamless upgrades, just works, awesome community. No complaints.
 
 ## What text-editor do you use?
-Neovim, btw.
+Neovim.
 
 ## How's your experience with Neovim been like?
 The first text-editor I ever used was Sublime Text, then I switched to VsCode after a few months. The switch to Neovim wasn't an easy one, it took me a lot of time to first learn Vim motions and then to configure my environment. But I really wanted to make the switch and I'm glad I did. I can now navigate my workspaces much more efficiently, and I really enjoy writing the configs. I've written more about the experience in [this post](https://www.linkedin.com/posts/kelvin-kirima-25b010184_i-started-to-teach-myself-how-to-program-activity-7150909262901264384-240y?utm_source=share&utm_medium=member_desktop).   
