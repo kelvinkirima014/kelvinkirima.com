@@ -376,12 +376,8 @@ textarea {
 
 .footRight {
   display: flex;
-  justify-content: flex-end;
   gap: 2rem;
   flex-direction: row;
-}
-.footLeft {
-
 }
 
 .noStyle {
