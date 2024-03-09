@@ -14,7 +14,7 @@ Yes, very much. Programming enriches my life with meaningfulness that I don't ta
 I started to teach myself how to code in late 2019. I was 19 years old then.
 
 ## What was your first Programming Language?
-My first Hello World was in HTML, which is a markup language. My first 'real' programming language was Javascript.
+My first program was getting *Hello World* displayed by the browser via HTML, which is a markup language. My first 'real' programming language was Javascript.
 
 ## Why Javascript?
 Because it's the scripting language for the web.
@@ -26,7 +26,7 @@ Javascript, Typescript, Rust, Lua, Bash, Racket, C.
 Yes, Rust.
 
 ## Why Rust?
-I'm into backend systems and Rust is a joy to work with in this domain. Besides the speed of a low-level language and memory safety, Rust's rich type system and concepts like the Option and Result types make designing APIs a bliss.  
+I'm into backend systems and Rust is a joy to work with in this domain. Besides the speed of a low-level language and memory safety, Rust's rich type system and concepts like the [Option](https://doc.rust-lang.org/std/option/) and [Result](https://doc.rust-lang.org/std/result/) types make designing APIs a bliss.  
 
 Rust enables low level control without sacrificing expressiveness, productivity, or developer experience. Modern language concepts like pattern matching and generics, the  Cargo package manager and solid development tools, all make working with Rust a joy. Lest I forget, the compiler which not only catches my mistakes before runtime, but also acts like a kind teacher and guides me on how to fix them. 
 
