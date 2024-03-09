@@ -5,7 +5,7 @@ title = "FAQs"
 I have't really been asked these questions frequently, but I would not mind answering if I were.
 
 ## How did you get into programming?
-I wanted to make websites. Turns out, you need code, and so I had to teach myself how to write code.
+I wanted to make websites. Turns out, you need to write code, and so it began.
 
 ## Do you like to Program?
 Yes, very much. Programming enriches my life with meaningfulness that I don't take for granted; I'm glad I found something I really like to do and that I want to be really good at.
