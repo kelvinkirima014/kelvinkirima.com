@@ -14,7 +14,7 @@ Yes, very much. Programming enriches my life with meaningfulness that I don't ta
 I started to teach myself how to code in late 2019. I was 19 years old then.
 
 ## What was your first Programming Language?
-My first program was getting *Hello World* displayed by the browser via HTML, which is a markup language. My first 'real' programming language was Javascript.
+My first program was getting *Hello World* displayed by a browser via HTML, which is a markup language. My first 'real' programming language was Javascript.
 
 ## Why Javascript?
 Because it's the scripting language for the web.
