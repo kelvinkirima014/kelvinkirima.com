@@ -2,7 +2,7 @@
 :root.light {
   --bgColor: #EEEEEE;
   --fgColor: #41474E;
-  --metaColor: #D26878;
+  --metaColor: #D26878; 
   --headColor: #;
   --linkColor: #5690AF;
   --hovColor: #22453F;
@@ -234,17 +234,14 @@ textarea {
   color: var(--metaColor)
 }
 
-/* Site Specific Styling */
 .wrapper {
   min-height: 100vh;
   min-height: 100svh;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  gap: 2rem;
-  
+  gap: 2rem; 
 }
 
-/* Icons settings */
 .icons {
   width: 2.0rem;
   height: 2.0rem;
@@ -267,9 +264,6 @@ textarea {
   flex-direction: row;
   gap: .4rem;
   align-items: center;
-  /*justify-content: flex-end;
-  align-items: center;
-  align-content: flex-end */
 }
 
 .profile-text {
@@ -291,13 +285,13 @@ textarea {
 
 .nav-links {
   display: flex;
-  flex-direction: row; /* Make navigation links a vertical column */
-  margin-top: .5rem; /* Add spacing after the profile text */
+  flex-direction: row;
+  margin-top: .5rem;
   padding: 4px;
 }
 
 .nav-links a {
-  margin-right: 2.5rem; /* Indent navigation links slightly */
+  margin-right: 2.5rem; 
 
 }
 
@@ -311,9 +305,9 @@ textarea {
 }
 
 .social-icon {
-  width: 25px; /* Adjust the size of the other icons */
+  width: 25px;
   height: 25px;
-  margin: 5px; /* Adjust the spacing between icons */
+  margin: 5px; 
   color: var(--fgColor);
   fill: var(--fgColor);
   background-color: transparent;
@@ -322,7 +316,7 @@ textarea {
 .themeSwitch {
   display: flex;
   align-items: center;
-  margin-left: auto; /* Move themeSwitch to the right by pushing it to the end of the flex container */
+  margin-left: auto; 
 }
 
 .themeButton {

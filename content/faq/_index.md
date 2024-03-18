@@ -70,8 +70,8 @@ There's a lot I love and miss about Nairobi; there's a vibrant street food cultu
 Yes. I hope to visit every African country before I leave this world behind. I also have friends from many countries around the world like Sweden, the U.K, India, and the U.S that I'd love to meet physically some day. I'd love to visit Ensenada too, I hear they make delicious tacos over there. Also, it's a theme in a song I really like: *The Road to Ensenada*, by Lylle Lovett.
 
 ## What's your favorite song?
-My favourite song is *A Commet Appears*, by The Shins, what a lovely, lovely song.
-{{ youtube(id="kT-t7Mu-eO4" class="textCenter") }}
+My favourite song is *No Stranger Than Fiction*, by Cult With No Name, take a listen.
+{{ youtube(id="HYt9AKMu3uc" class="textCenter") }}
 
 
 ### More of this faq soon...
