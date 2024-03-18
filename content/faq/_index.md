@@ -63,7 +63,7 @@ Most guys here are farmers; my parents too. We grow tea on our farm that's sold 
 I was born and grew up here, but I went to Nairobi for college and lived there for a while before coming back home last year.
 
 ## What's Nairobi like?
-There's a lot I love and miss about Nairobi; there's a vibrant street food culture which I enjoy, the Matatus are a whole freaking vibe, the streets are lively, and the girls beautiful. To quote the great author Karen Blixen, aka, Isak Dinesen of Out of Africa: 
+There's a lot I love about Nairobi; there's a vibrant street food culture, I enjoy Matatu rides, the streets are lively, and the girls beautiful. To quote the great author Karen Blixen, aka, Isak Dinesen of Out of Africa: 
 > There's no world without Nairobi's streets.
 
 ## Are there other places in the world you would like to visit?
