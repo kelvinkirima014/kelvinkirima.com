@@ -49,10 +49,10 @@ Vim.
 I enjoy strolling immensely, especially somewhere there is trees. The good thing is I live close to a forest so I get to do it regularly.
 
 ## Where do you live?
-I live in a small highland county known as Meru, Kenya.
+I live in the Miriga Mieru(new clans) region in the highland county of the Ameru, Kenya.
 
 ## How's it like over there?
-It's very beautiful. We're lucky that a small stream passes through our shamba, and we are also just a few meters away from the Mt.Kenya forest.
+It's very beautiful. It's a rich land covered by hills and innumerable streams. At home, we are blessed that a small stream passes through our shamba, and we are also just a few meters away from the Kirimaara(Mt.Kenya) forest.
 
 {{ img(id="https://raw.githubusercontent.com/kelvinkirima014/kelvinkirima.com/main/static/forest.jpg", alt="forest pic") }}
 
@@ -61,7 +61,6 @@ Most guys here are farmers; my parents too. We grow tea on our farm that's sold 
 
 ## Have you always lived there?
 I was born and grew up here, but I went to Nairobi for college and lived there for a while before coming back home last year.
-
 ## What's Nairobi like?
 There's a lot I love about Nairobi; there's a vibrant street food culture, I enjoy Matatu rides, the streets are lively, and the girls beautiful. To quote the great author Karen Blixen, aka, Isak Dinesen of Out of Africa: 
 > There's no world without Nairobi's streets.
