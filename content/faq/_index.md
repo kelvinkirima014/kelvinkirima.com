@@ -66,7 +66,7 @@ There's a lot I love about Nairobi; there's a vibrant street food culture, I enj
 > There's no world without Nairobi's streets.
 
 ## Are there other places in the world you would like to visit?
-Yes. I hope to visit every African country before I leave this world behind. I also have friends from many countries around the world like Sweden, the U.K, India, and the U.S that I'd love to meet physically some day. I'd love to visit Ensenada too, I hear they make delicious tacos over there. Also, it's a theme in a song I really like: *The Road to Ensenada*, by Lylle Lovett.
+Yes. I'd love to tour the whole of Africa sometime in the not so distant future. I also have friends from many countries around the world like Sweden, the U.K, India, and the U.S that I'd love to meet in person some day.
 
 ## What's your favorite song?
 My favourite song is *Not Stranger Than Fiction*, by Cult With No Name, take a listen.
