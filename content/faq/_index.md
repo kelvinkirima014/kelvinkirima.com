@@ -31,7 +31,7 @@ I'm into backend systems and Rust is a joy to work with in this domain. Besides 
 Rust enables low level control without sacrificing expressiveness, productivity, or developer experience. Modern language concepts like pattern matching and generics, the  Cargo package manager and solid development tools, all make working with Rust a joy. Lest I forget, the compiler which not only catches my mistakes before runtime, but also acts like a kind teacher and guides me on how to fix them. 
 
 ## Are you looking to learn a new language?
-I'm always experimenting with a new language every now and then. Some that I'd love to get more into are Go, Erlang and Java. 
+I'm always experimenting with a new language every now and then. Some that I'd love to get more into are Erlang and PureScript. 
  
 ## How do you learn a new language, or topic?
 I just search for resources(textbooks) that teach the topic on the internet, mostly Reddit, and watch tutorials on Youtube. The key is to learn actively by copying the stuff you learn word by word, until you can write it from memory. Obviously you have to understand something in order to be able to create it, but the more you do it the easier it becomes. So, basically, practice.
