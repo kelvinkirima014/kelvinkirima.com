@@ -49,28 +49,24 @@ Vim.
 I enjoy strolling immensely, especially somewhere there is trees. The good thing is I live close to a forest so I get to do it regularly.
 
 ## Where do you live?
-I live in the Miriga Mieru(new clans) region in the highland county of the Ameru, Kenya.
+I currently live in Nairobi, Kenya. I'm originally from the highland county of Meru.
 
-## How's it like over there?
-It's very beautiful. It's a rich land covered by hills and innumerable streams. At home, we are blessed that a small stream passes through our shamba, and we are also just a few meters away from the Kirimaara(Mt.Kenya) forest.
-
-{{ img(id="https://raw.githubusercontent.com/kelvinkirima014/kelvinkirima.com/main/static/forest.jpg", alt="forest pic") }}
-
-## What do most people do for a living? 
-Most guys here are farmers; my parents too. We grow tea on our farm that's sold to a factory and exported; we also keep cattle and poultry for milk and the eggs. 
-
-## Have you always lived there?
-I was born and grew up here, but I went to Nairobi for college and lived there for a while before coming back home last year.
 ## What's Nairobi like?
 There's a lot I love about Nairobi; there's a vibrant street food culture, I enjoy Matatu rides, the streets are lively, and the girls beautiful. To quote the great author Karen Blixen, aka, Isak Dinesen of Out of Africa: 
 > There's no world without Nairobi's streets.
 
+## And Meru?
+It's very beautiful. At home, we are blessed that a small stream passes through our shamba, and we are also just a few meters away from the Kirimaara(Mt.Kenya) forest.
+
+{{ img(id="https://raw.githubusercontent.com/kelvinkirima014/kelvinkirima.com/main/static/forest.jpg", alt="forest pic") }}
+
+## What do most people do for a living? 
+Most people are farmers; my parents too. We grow tea on our farm that's sold to a factory and exported; we also keep cattle and poultry for milk and the eggs. 
+
+## Have you always lived there?
+I was born and grew up here, but I went to Nairobi for college and lived there for a while before coming back home last year.
 ## Are there other places in the world you would like to visit?
 Yes. I'd love to tour the whole of Africa sometime in the not so distant future. I also have friends from many countries around the world like Sweden, the U.K, India, and the U.S that I'd love to meet in person some day.
-
-## What's your favorite song?
-My favourite song is *Not Stranger Than Fiction*, by Cult With No Name, take a listen.
-{{ youtube(id="HYt9AKMu3uc" class="textCenter") }}
 
 
 ### More of this faq soon...
