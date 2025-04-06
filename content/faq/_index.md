@@ -42,9 +42,6 @@ I'm running Fedora Linux, latest release.
 ## How's Fedora like?
 Stable releases, fast startup, FOSS packages only, seamless upgrades, just works, awesome community. No complaints.
 
-## What text-editor do you use?
-Vim.
-
 ## Besides Programming, what else do you enjoy?
 I enjoy strolling immensely, especially somewhere there is trees. The good thing is I live close to a forest so I get to do it regularly.
 

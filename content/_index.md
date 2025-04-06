@@ -6,7 +6,7 @@ Hello, I'm Kirima and welcome to my place on the internet.
 
 I'm a computer programmer with experience in web technologies, computer networks and communication protocols.
 
-I write code(mostly backend), but I'm also interested in all areas of audio/video streaming. I work remotely for a UK based company from my home in Nairobi. In my free time, I hack on [Majiix](https://github.com/Majgix/Majiix), an opensource low-latency platform for web-based teleconferencing.  
+I write code(mostly backend), but I'm also interested in all areas of audio/video streaming. I work remotely for a UK based company from my rented place in Nairobi. In my free time, I hack on [Majiix](https://github.com/Majgix/Majiix), an opensource low-latency platform for web-based teleconferencing.  
 
 If interested on learning more about me, please check out the [faq](/faq). 
 
