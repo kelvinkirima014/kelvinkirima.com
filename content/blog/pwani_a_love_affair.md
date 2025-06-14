@@ -45,4 +45,4 @@ At Likoni, I walked for a few minutes and found myself at a place called Senti K
 I didn’t go looking for anything in particular when I left Nairobi, but I made new friends, shared meals and laughter over cups of mnazi, and had what I like to think of as a great adventure. Now, I remember the coast with a bit of nostalgia, and I hope it doesn’t take me too long to return.
 
 
-**To my friends Joy, Davie, Hussein, Gbaba, Shuku, Tiwi, Carol, Lynn, Simon, Alex, MJ, Ben, and Mary, you made my stay beautiful and memorable. Ahsanteni sana, ladies and gentlemen. 💙**
+**To my friends Joy, Davie, Hussein, Gbaba, Shuku, Tiwi, Carol, Lynn, Simon, Alex, MJ, Maggie, Ben, Kevo and Mary, you made my stay beautiful and memorable. Ahsanteni sana, ladies and gentlemen. 💙**
